@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="BECHEN, Michelle L." />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="email"
+        android:text="Michelle.Bechen@loras.edu" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2001- Associate Professor of Social Work\nB.A., Clarke College, 1996\nM.S.W., The University of Iowa, 1998\nL.M.S.W., State of Iowa, 1986\n" />
+    
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="BELL, Valerie R." />
+     
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="email"
+        android:text="Valerie.Bell@loras.edu" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2010- Instructor of Criminal Justice\nB.S., Boise State University, 2003\nM.A., Boise State University, 2005\nPh.D., University of Cincinnati, ABD\n" />
+    
+         <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="CAVANAGH, Bradley (Brad) " />
+     
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="email"
+        android:text="Bradley.Cavanagh@loras.edu" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2010- Assistant Professor of Social Work\nB.A., University of Iowa, 2000\nM.S.W., Saint Louis University, 2003\nL.I.S.W., State of Iowa, 2005\n" />
+
+       <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="DECKER, Leonard R." />
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="email"
+        android:text="Leonard.Decker@loras.edu" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="1976-77, 1985- Professor of Criminal Justice\nDirector of the Center for Business and Social Research\nB.A., Loras College, 1974\nM.A., University of Nebraska – Omaha, 1976\nPh.D., South Dakota State University, 1980\n" />
+    
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="DUNN, Robert J." />
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="email"
+        android:text="Robert.Dunn@loras.edu" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="1984- Professor of Psychology\nB.S., Loras College, 1970\nM.S., Iowa State University, 1972\nPh.D., Iowa State University, 1974\n" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="FETT, Nancy Zachar" />
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="email"
+        android:text="Nancy.Fett@loras.edu" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="1995- Associate Professor of Social Work\nB.A., Loras College, 1990\nM.S.W., University of Illinois – Chicago, 1993\nL.M.S.W., State of Iowa, 1997\n" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="GRINDE, Lisa" />
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="email"
+        android:text="Lisa.Grinde@loras.edu" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2001- Associate Professor of Psychology\nDirector, MOI\nB.A., Northern Michigan University, 1994\nM.S., Virginia Commonwealth University, 1997\nPh.D., Virginia Commonwealth University, 1999\n" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="HANKERSON, Sarah J." />
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="email"
+        android:text="Sarah.Hankerson@loras.edu " />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2011- Visiting Assistant Professor of Psychology\nB.A., St. Olaf College, 1996\nM.A., California State University, 2001\nPh.D., University of Maryland, 2008\n" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="HOPPER, Mark" />
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="email"
+        android:text="Mark.Hopper@loras.edu" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2003- Associate Professor of Psychology\nB.S., Southern Illinois – Edwardsville, 1995\nM. A., Southern Illinois University – Edwardsville, 1997\nPh.D., Ball State University, 2003\n" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="JOHNSON, Mary M." />
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="email"
+        android:text="Mary.Johnson@loras.edu" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="1988- Professor of Psychology\nChair, Division of Behavioral Sciences\nB.A., Edgewood College, 1968\nM.A., Loras College, 1981\nPh.D., University of Iowa, 1986\nLicensed psychologist, Iowa, 1988\n" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="OMARZU, Julia S." />
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="email"
+        android:text="Julia.Omarzu@loras.edu" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2002- Associate Professor of Psychology\nB.S., San Diego State University, 1983\nM.A., California State University – Fresno, 1995\nPh.D., The University of Iowa, 1999\n" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="TENTIS, Dedra R." />
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="email"
+        android:text="Dedra.Tentis@loras.edu" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2001- Associate Professor of Criminal Justice\nB.A., Saint Cloud State University, 1994\nM.S., Saint Cloud State University, 1996\nPh.D., South Dakota State University, 1999\n" />
+    
+</LinearLayout>
+</ScrollView>

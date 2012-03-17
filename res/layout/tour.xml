@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Link to arrow icons used for virtual tour navigation bar: http://www.picol.org/icon_library.php -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.google.android.maps.MapView
+        android:id="@+id/mapview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:apiKey="0IjXQ7KHuzVYYfluLaT3yJR5mGPDYwb4e-nbR_g"
+        android:clickable="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+    	android:layout_height="50dp"
+    	android:layout_weight="0.0"
+    	android:orientation="horizontal"
+    	android:paddingLeft="10dp"
+    	android:paddingRight="10dp"
+    	android:gravity="center" >
+    	
+	    <ImageButton
+	         android:id="@+id/leftArrow"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_centerVertical="true"
+	         android:layout_alignParentLeft="true"
+	         android:background="@null"
+	         android:onClick="onClick"
+	         android:src="@drawable/left_arrow_states" />
+	    
+	    <TextView
+	        android:id="@+id/tourNavBar"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:gravity="center"
+	        android:layout_centerVertical="true"
+	        android:layout_toRightOf="@+id/leftArrow"
+	        android:layout_toLeftOf="@+id/rightArrow"
+	        android:paddingLeft="5dp"
+	        android:paddingRight="5dp"
+	        android:text="Default" />
+	        
+	     <ImageButton
+	         android:id="@+id/rightArrow"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_centerVertical="true"
+	         android:layout_alignParentRight="true"
+	         android:background="@null"
+	         android:onClick="onClick"
+	         android:src="@drawable/right_arrow_states" />
+        
+	</RelativeLayout>
+    
+
+</LinearLayout>

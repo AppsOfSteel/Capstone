@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.loras.AppsOfSteel"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <!--  allows access to the Internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        
+        <!-- Main Activity -->
+        <activity
+            android:name=".AppsOfSteelActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- MapsActivity.java -->
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <!-- TourActivity.java -->
+        <activity
+            android:name=".TourActivity"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <!-- VirtualVisitorActivity.java -->
+        <activity
+            android:name=".VirtualVisitorActivity"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <!-- LocationInfoActivity.java -->
+        <activity
+            android:name=".LocationInfoActivity"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <!-- LorasMajorsList.java -->
+        <activity
+            android:name=".LorasMajorsList"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <!-- LorasMajorsDetails.java -->
+        <activity
+            android:name=".LorasMajorsDetails"
+            android:label="@string/app_name">
+        </activity>
+        
+        <!-- campusDirectory.java -->
+        <activity
+            android:name=".campusDirectory"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <!-- requestInformation.java -->
+        <activity
+            android:name=".requestInformation"
+            android:label="@string/app_name">
+        </activity>
+        
+        <!-- Departments.java -->
+        <activity
+            android:name=".Departments"
+            android:label="@string/app_name">
+        </activity>
+        
+        <!-- Calendar.java -->
+        <activity
+            android:name=".Calendar"
+            android:label="@string/app_name">
+        </activity>
+        
+        <!-- GalleryView.java -->
+        <activity
+            android:name=".GalleryView"
+            android:label="@string/app_name">
+        </activity>
+        
+        <!-- menuCalendar.java -->
+        <activity
+            android:name=".menuCalendar"
+            android:label="@string/app_name">
+        </activity>
+        
+        <!-- menuOrg.java -->
+        <activity
+            android:name=".menuOrg"
+            android:label="@string/app_name">
+        </activity>
+        
+        <!-- Organization.java -->
+        <activity
+            android:name=".Organization"
+            android:label="@string/app_name">
+        </activity>
+        
+        <!-- Visit.java -->
+        <activity
+            android:name=".Visit"
+            android:label="@string/app_name">
+        </activity>
+        
+        <!-- ExpandableList1.java -->
+        <activity
+            android:name=".ExpandableList1"
+            android:label="@string/app_name">
+        </activity>
+        
+        <!-- Checklist.java -->
+        <activity
+            android:name=".Checklist"
+            android:label="@string/app_name">
+        </activity>
+        
+        <!-- Directions.java -->
+        <activity
+            android:name=".Directions"
+            android:label="@string/app_name">
+        </activity>
+        
+        <!-- FromIowa.java -->
+        <activity
+            android:name=".FromIowa"
+            android:label="@string/app_name">
+        </activity>
+        
+        <!-- PrintStates.java -->
+        <activity
+            android:name=".PrintStates"
+            android:label="@string/app_name">
+        </activity>
+        
+        <!-- ShowLocationActivity.java -->
+        <activity
+            android:name=".ShowLocationActivity"
+            android:label="@string/app_name">
+        </activity>
+        
+        <!-- declare the Google Maps library -->
+        <uses-library android:name="com.google.android.maps" />
+        
+        <!--  remove title bar from the google maps view -->
+        <activity android:name=".GoogleMaps" android:label="@string/app_name"
+     	android:theme="@android:style/Theme.NoTitleBar"/>
+        
+        <!-- remove title bar from VirtualVisitorActivity -->
+        <activity android:name=".VirtualVisitorActivity" android:label="@string/app_name"
+          android:theme="@android:style/Theme.NoTitleBar" />
+                
+    </application>
+
+</manifest>

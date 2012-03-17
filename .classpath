@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="src" path="src_VirtualVisitor"/>
+	<classpathentry kind="src" path="src_Majors"/>
+	<classpathentry kind="src" path="src_Directory"/>
+	<classpathentry kind="src" path="src_RequestInfo"/>
+	<classpathentry kind="src" path="src_AcademicCalendar"/>
+	<classpathentry kind="src" path="src_PhotoGallery"/>
+	<classpathentry kind="src" path="src_ScheduleVisit"/>
+	<classpathentry kind="src" path="src_Organizations"/>
+	<classpathentry kind="src" path="src_Directions"/>
+	<classpathentry kind="src" path="src_AcceptedChecklist"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#660066">
+
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=""
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:id="@+id/tvDisplay0"
+    />
+  <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=""
+    android:textSize="16dp"
+    android:textStyle="bold"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:id="@+id/tvDisplay1"
+    />
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=""
+    android:textSize="14dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:id="@+id/tvDisplay2"
+    />
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=""
+    android:textSize="16dp"
+    android:textStyle="bold"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:id="@+id/tvDisplay3"
+    />
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=""
+    android:textSize="14dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:id="@+id/tvDisplay4"
+    />
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=""
+    android:textSize="16dp"
+    android:textStyle="bold"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:id="@+id/tvDisplay5"
+    />
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=""
+    android:textSize="14dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:id="@+id/tvDisplay6"
+    />
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=""
+    android:textSize="16dp"
+    android:textStyle="bold"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:id="@+id/tvDisplay7"
+    />
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=""
+    android:textSize="14dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:id="@+id/tvDisplay8"
+    />
+   
+</LinearLayout>
+
+</ScrollView>
+
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- Layers -->
+    <item android:id="@+id/layers"
+          android:title="Layers" >
+        <!-- submenu -->
+        <menu>
+            <group android:checkableBehavior="all">
+	            <item android:id="@+id/eat"
+	                  android:title="Eat" 
+	                  android:checked="true"/>
+	            <item android:id="@+id/sleep"
+	                  android:title="Sleep" 
+	                  android:checked="true"/>
+	            <item android:id="@+id/study"
+	                  android:title="Study" 
+	                  android:checked="true"/>
+	            <item android:id="@+id/havefun"
+	                  android:title="Have Fun" 
+	                  android:checked="true"/>
+	    	</group>
+        </menu>
+    </item>
+    
+    <item android:id="@+id/buildings" android:title="Buildings"></item>
+</menu>

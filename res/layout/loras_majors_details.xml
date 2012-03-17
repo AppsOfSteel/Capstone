@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+   	    android:layout_height="fill_parent" >
+	<RelativeLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical" >
+	    
+	
+	    <TextView
+	        android:id="@+id/majorTitle"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="Default Text"
+	        android:textSize="20sp" />
+	
+	    <TextView
+	        android:id="@+id/majorDescriptionLabel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/majorTitle"
+	        android:layout_marginTop="20dp"
+	        android:textSize="16sp"
+	        android:text="Description:" />
+	
+	    <TextView
+	        android:id="@+id/majorDescription"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/majorDescriptionLabel"
+	        android:layout_marginTop="10dp"
+	        android:textSize="16sp"
+	        android:text="Default Text" />
+	
+	    <TextView
+	        android:id="@+id/majorPlansTitle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/majorDescription"
+	        android:layout_marginTop="30dp"
+	        android:textSize="16sp"
+	        android:text="Sample Four Year Advising Plans:" />
+	    
+	    <TextView
+	        android:id="@+id/majorPlans"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/majorPlansTitle"
+	        android:layout_marginTop="10dp"
+	        android:textSize="16sp"
+	        android:text="Default Text" />
+	    
+	    <TextView
+	        android:id="@+id/gap"
+	        android:layout_width="match_parent"
+	        android:layout_height="30dp"
+	        android:layout_alignParentBottom="true"
+	        android:layout_below="@+id/majorPlans" />
+	    
+	
+	</RelativeLayout>
+</ScrollView>

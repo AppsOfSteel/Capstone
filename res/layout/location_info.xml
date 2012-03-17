@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent" 
+              android:layout_height="wrap_content" 
+              android:orientation="vertical" 
+              android:padding="10dp">
+              
+    <TextView 
+        android:id="@+id/locationName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="50dp"
+        android:text="Name"
+        android:padding="20dp"/>
+    
+    <ImageView 
+        android:id="@+id/locationImage"
+        android:contentDescription="Picture of location."
+        android:src="@+drawable/arc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"/>
+        	"
+    <TextView 
+        android:id="@+id/locationDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Description"
+        android:padding="20dp"/>
+    
+</LinearLayout>
+</ScrollView>

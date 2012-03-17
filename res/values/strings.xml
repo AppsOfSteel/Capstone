@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AppsOfSteelActivity!</string>
+    <string name="app_name">AppsOfSteel</string>
+    
+    <string name="majors_prefs">MajorsPrefs</string>
+    <string-array name="majors_array">
+        <item>Accounting</item>
+        <item>Athletic Training</item>
+        <item>Biochemistry</item>
+        <item>Biology</item>
+        <item>Biological Research</item>
+		<item>Business</item>
+		<item>Chemistry</item>
+		<item>Computer Science</item>
+		<item>Criminal Justice</item>
+		<item>Economics</item>
+		<item>Elementary Education</item>
+		<item>Engineering</item>
+		<item>English-Creative Writing</item>
+		<item>English-Literature</item>
+		<item>Finance</item>
+		<item>History</item>
+		<item>Integrated Visual Arts</item>
+		<item>International Studies</item>
+		<item>Management</item>
+		<item>Management Information Systems</item>
+		<item>Marketing</item>
+		<item>Mathematics</item>
+		<item>Media Studies</item>
+		<item>Music</item>
+		<item>Philosophy</item>
+		<item>Physical Education</item>
+		<item>Politics</item>
+		<item>Psychology</item>
+		<item>Public Relations</item>
+		<item>Religious Studies</item>
+		<item>Secondary Education</item>
+		<item>Social Work</item>
+		<item>Sociology</item>
+		<item>Spanish</item>
+		<item>Sport Management</item>
+		<item>Sport Science</item>
+    </string-array>
+
+</resources>
