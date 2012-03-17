@@ -8,7 +8,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-// Testing GitHub 
+
 public class AppsOfSteelActivity extends ListActivity 
 { 
 	/** Called when the activity is first created. */
