@@ -54,7 +54,7 @@ public class LorasMajorsList extends ListActivity {
         editor.putString("BiochemistryDesc", "Chemistry and Biochemistry provides students with the opportunity to develop a strong foundation in chemical principles and to apply them to laboratory applications. This foundation enables Chemistry and Biochemistry graduates to pursue a wide range of careers in chemical industry, research, education, and engineering, or in interdisciplinary fields such as medicine, dentistry, other health professions, forensic science, or patent law.");
         editor.commit();
     }*/
-    // Other page: 
+    // Other page:
     // SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
     // majorDescription = settings.getString("BiochemistryDesc", "No Data");
         
