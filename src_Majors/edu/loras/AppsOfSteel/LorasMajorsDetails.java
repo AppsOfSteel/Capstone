@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 public class LorasMajorsDetails extends Activity {
 	//private String PREFS_NAME;
+	//
 	
 	private TextView tvMajorTitle, tvMajorDescription, tvMajorPlans;
 	private String majorName;
