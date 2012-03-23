@@ -9,13 +9,14 @@
     android:orientation="vertical" >
     
     <TextView
+    android:id="@+id/titleText"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:textStyle="bold"
     android:text="Please Indicate:  " />
     
  <RadioGroup
-      android:id="@+id/titleField"
+      android:id="@+id/titleGroup"
       android:layout_width="fill_parent"
       android:layout_height="wrap_content"
       android:orientation="horizontal">
@@ -30,7 +31,7 @@
     </RadioGroup>
     
     <TextView
-   android:id="@+id/nameText"
+   	android:id="@+id/nameText"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:textStyle="bold"
@@ -44,6 +45,7 @@
 	</EditText>
 	
     <TextView
+    android:id="@+id/preferredNameText"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:text="Preferred Name" />
@@ -56,6 +58,7 @@
 	</EditText>
 	
     <TextView
+    android:id="@+id/addressText"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:textStyle="bold"
@@ -70,6 +73,7 @@
 
     	
     <TextView
+    android:id="@+id/cityText" 
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:textStyle="bold"
@@ -83,6 +87,7 @@
 	</EditText>
 	
     <TextView
+    android:id="@+id/stateText" 
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:textStyle="bold"
@@ -96,6 +101,7 @@
 	</EditText>
 	
     <TextView
+    android:id="@+id/zipCodeText"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:textStyle="bold"
@@ -109,6 +115,7 @@
 	</EditText>
 	
     <TextView
+    android:id="@+id/DOBText"  
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:textStyle="bold"
@@ -122,6 +129,7 @@
 	</EditText>
 	
     <TextView
+    android:id="@+id/landlinePhoneText" 
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:text="Landline Phone Number" />
@@ -134,6 +142,7 @@
 	</EditText>
 	
     <TextView
+        android:id="@+id/cellPhoneText"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:text="Cell Phone Number" />
@@ -146,6 +155,7 @@
 	</EditText>
 	
     <TextView
+    android:id="@+id/emailText"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:text="Email Address" />
@@ -158,13 +168,14 @@
 	</EditText>
 	
     <TextView
+    android:id="@+id/intendedStartTermText"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:textStyle="bold"
     android:text="Intended Start Term" />
     
  <RadioGroup
-      android:id="@+id/intendedStartTerm"
+      android:id="@+id/intendedStartTermGroup"
       android:layout_width="fill_parent"
       android:layout_height="wrap_content"
       android:orientation="vertical">
@@ -199,6 +210,7 @@
     </RadioGroup> 
 	
     <TextView
+    android:id="@+id/highSchoolText"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:textStyle="bold"
@@ -212,6 +224,7 @@
     </EditText> 
     
     <TextView
+    android:id="@+id/highSchoolCityStateText" 
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:text="High School City and State" />
@@ -224,6 +237,7 @@
 	</EditText>
 	
     <TextView
+    android:id="@+id/highSchoolGraduationText"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:textStyle="bold"
@@ -237,6 +251,7 @@
 	</EditText>
 	
     <TextView
+    android:id="@+id/highSchoolGPAText" 
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:text="High School Grade Point Average" />
@@ -249,6 +264,7 @@
 	</EditText>
 	
     <TextView
+    android:id="@+id/transferStudentCollegesText"  
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:text="Transfer Student, please list colleges attended" />
@@ -262,6 +278,7 @@
 	</EditText> 
 	
     <TextView
+    android:id="@+id/academicInterestsText" 
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:text="Academic Interest" />
@@ -275,6 +292,7 @@
 	</EditText>
 	
     <TextView
+    android:id="@+id/collegeGPAText"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:text="College/University Grade Point Average" />
@@ -287,6 +305,7 @@
 	</EditText>
 	
       <TextView
+    android:id="@+id/collegiateAthleticsText"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:text="Collegiate Athletics" />
@@ -300,6 +319,7 @@
 	</EditText>
 	
       <TextView
+    android:id="@+id/collegiateExtracurricularsText" 
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:text="Collegiate Extracurricular Activities" />
@@ -313,6 +333,7 @@
 	</EditText>
 	
       <TextView
+    android:id="@+id/usCitizenText"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:text="Are you a United States citizen?" />
@@ -333,6 +354,7 @@
     </RadioGroup> 
 	
       <TextView
+    android:id="@+id/citizenshipText"  
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:text="If not, please indicate Country of Citizenship" />
