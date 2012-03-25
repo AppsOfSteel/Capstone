@@ -19,7 +19,8 @@ public class GalleryView extends Activity {
     		R.drawable.sample_3,
     		R.drawable.sample_4,
     		R.drawable.sample_5,
-    		R.drawable.sample_6,
+    		R.drawable.sample_6
+    		//Image 7 is not there
     };
     ImageView imageView;
 	
