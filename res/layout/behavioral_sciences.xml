@@ -5,9 +5,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/directory"
     android:orientation="vertical" >
-    
+<!-- 
     <TextView
+        android:id="@+id/firstEntry"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textStyle="bold"
@@ -188,6 +190,6 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="2001- Associate Professor of Criminal Justice\nB.A., Saint Cloud State University, 1994\nM.S., Saint Cloud State University, 1996\nPh.D., South Dakota State University, 1999\n" />
-    
+    -->
 </LinearLayout>
 </ScrollView>
